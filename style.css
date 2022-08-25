@@ -1,0 +1,30 @@
+body{
+
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+ 
+
+    
+
+}
+.product{
+    flex-direction: row;
+   
+
+}
+
+
+.column{
+
+    float: left;
+    margin-left: 500px;
+
+}
+
+.row:after{
+
+    content: "";
+    display: table;
+   
+}
